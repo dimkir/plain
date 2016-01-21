@@ -1,6 +1,11 @@
 # Dev env configuration
 port: 4003
 
+
+#   *****   Themes ********
+includes_dir: ./_themes/plain/includes
+layouts_dir : ./_themes/plain/layouts
+
 # Site Info
 title:              "The Plain"
 description:        "The Plain is a Minimalist Jekyll theme that focuses on writing matters."
