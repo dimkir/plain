@@ -3,8 +3,17 @@ port: 4003
 
 
 #   *****   Themes ********
-includes_dir: ./_themes/plain/includes
-layouts_dir : ./_themes/plain/layouts
+# includes_dir: ./themes/plain/_includes
+# layouts_dir : ./themes/plain/_layouts
+
+includes_dir: ./themes/bs/_includes
+layouts_dir : ./themes/bs/_layouts
+# Site Settings
+baseurl:            "/plain" # Base URL must end WITHOUT a slash, default: ""
+basethemeurl:       "/plain/themes/bs"
+
+sass:
+    sass_dir: _sass
 
 # Site Info
 title:              "The Plain"
@@ -18,8 +27,9 @@ author_email:       hnrird@gmail.com
 author_gravatar:    2b38b1b0e7e08b69379bd61582adf0c8 # Gravatar md5 hash
 twitter_username:   HeiswayiNrird
 
-# Site Settings
-baseurl:            "/plain" # Base URL must end WITHOUT a slash, default: ""
+
+
+
 permalink:          /notes/:title # Post permalink
 timezone:           Asia/Kuala_Lumpur # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
